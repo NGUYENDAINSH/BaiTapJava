@@ -99,7 +99,7 @@ public class Main {
                                 }
                             }
                         }
-                        System.out.println("vậy có " + soPhanTuLap + " số bị trùng lặp");
+                        System.out.println("vậy có " + soPhanTuLap + " phần tử bị trùng lặp");
 
                         // Tìm Max và Min
                         System.out.println("phần tử lớn nhất trong mảng đã nhập là: " + Arrays.stream(intArray2).max().getAsInt());
