@@ -43,8 +43,8 @@ public class Main {
                     } while (soLanThucHien2 <= 1000);
 
                     System.out.println("Tổng của các số nguyên từ 1-1000 bằng vòng lặp for là: " + sumFor);
-                    System.out.println("Tổng của các số nguyên từ 1-1000 bằng vòng lặp for là: " + sumWhile);
-                    System.out.println("Tổng của các số nguyên từ 1-1000 bằng vòng lặp for là: " + sumDoWhile);
+                    System.out.println("Tổng của các số nguyên từ 1-1000 bằng vòng lặp while là: " + sumWhile);
+                    System.out.println("Tổng của các số nguyên từ 1-1000 bằng vòng lặp do while là: " + sumDoWhile);
                     break;
                 case 2:
                     System.out.println("các số chia hết cho 2 từ 1 đến 100 là:");
@@ -59,6 +59,7 @@ public class Main {
                     int soLanNhap1;
                     System.out.println("bạn muốn nhập bao nhiêu số:");
                     soLanNhap1 = scanner.nextInt();
+                    System.out.println("xin mời bạn nhập: ");
                     if (soLanNhap1 > 0) {
                         int[] intArray1 = new int[soLanNhap1];
                         for (int i = 0; i < intArray1.length; i++) {
@@ -74,6 +75,7 @@ public class Main {
                     int soLanNhap2;
                     System.out.println("bạn muốn nhập bao nhiêu số:");
                     soLanNhap2 = scanner.nextInt();
+                    System.out.println("xin mời bạn nhập: ");
                     if (soLanNhap2 > 0) {
                         //tạo mảng
                         int[] intArray2 = new int[soLanNhap2];
